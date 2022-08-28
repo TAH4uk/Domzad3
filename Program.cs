@@ -26,35 +26,35 @@ else
 
 // Задача 21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
-// Console.Write("Введите координату X1: ");
-// int x1 = int.Parse(Console.ReadLine());
-// Console.Write("Введите координату Y1: ");
-// int y1 = int.Parse(Console.ReadLine());
-// Console.Write("Введите координату Z1: ");
-// int z1 = int.Parse(Console.ReadLine());
-// Console.Write("Введите координату X2: ");
-// int x2 = int.Parse(Console.ReadLine());
-// Console.Write("Введите координату Y2: ");
-// int y2 = int.Parse(Console.ReadLine());
-// Console.Write("Введите координату Z2: ");
-// int z2 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату X1: ");
+int x1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату Y1: ");
+int y1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату Z1: ");
+int z1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату X2: ");
+int x2 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату Y2: ");
+int y2 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату Z2: ");
+int z2 = int.Parse(Console.ReadLine());
 
-// double result = Math.Sqrt(Math.Pow ((x2 - x1), 2) + Math.Pow ((y2 - y1), 2) + Math.Pow ((z2 - z1), 2));
+double result = Math.Sqrt(Math.Pow ((x2 - x1), 2) + Math.Pow ((y2 - y1), 2) + Math.Pow ((z2 - z1), 2));
 
-// Console.WriteLine($"Расстояние между двумя точками с координатами ({x1}, {y1}, {z1}) и ({x2}, {y2}, {z2}) равно {result}");
+Console.WriteLine($"Расстояние между двумя точками с координатами ({x1}, {y1}, {z1}) и ({x2}, {y2}, {z2}) равно {result}");
 
-// // Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-// Console.Write("Введите положительное число N: ");
-// int N = int.Parse(Console.ReadLine());
+Console.Write("Введите положительное число N: ");
+int N = int.Parse(Console.ReadLine());
 
-// while (N < 0)
-// {
-//     Console.Write("Вы ввели неправильное число! Введите положительное число N: ");
-//     N = int.Parse(Console.ReadLine());
-// }
+while (N < 0)
+{
+    Console.Write("Вы ввели неправильное число! Введите положительное число N: ");
+    N = int.Parse(Console.ReadLine());
+}
 
-// for (int i = 1; i <= N; i++)
-// {
-//     Console.Write($"{i * i * i}, ");
-// }
+for (int i = 1; i <= N; i++)
+{
+    Console.Write($"{i * i * i}, ");
+}
